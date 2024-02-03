@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: large;
+}
+
+ul, li, ol{
+  list-style-type: none;
+}
+
+body {
+  min-height: 100vh;
+  padding: 2em;
+}
+
+.flex-box {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 0.4em 0.8em;
+  margin: 2px 4px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-normal {
+  font-size: larger;
+}
+
+.btn-red {
+  background-color: indianred;
+}

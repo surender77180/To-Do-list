@@ -1,0 +1,20 @@
+.background{
+    background: linear-gradient(120deg, rgb(186 98 238) , rgb(72, 181, 72), rgb(92, 92, 225))
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logout_btn{
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 2px 12px;
+}

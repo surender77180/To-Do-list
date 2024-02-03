@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Create Account</title>
+  <link rel="stylesheet" href="/index.css" />
+  <link rel="stylesheet" href="header.css">
+  <script type="module" src="reg.js"></script>
+</head>
+
+<body>
+  <div class="center">
+    <h1 class="head">Create Account</h1>
+    <form id="reg_form">
+      
+      <div class="text">
+        <input type="text" name="name" required />
+        <label>Username</label>
+      </div>
+
+      <div class="text">
+        <input type="password" name="password" required />
+        <label>password</label>
+      </div>
+
+      <div>
+        <label >
+          <input type="checkbox" name="isadmin">Registered as Admin
+        </label>
+      </div>
+
+      <div id="existsUser" class="sign">
+        Already Registered? <a href="/">Login here</a>
+      </div>
+
+      <input type="submit" value="Create Account" class="log-in"
+       style="padding: 2px 4px; margin: 4px 0;"/>
+
+      <div>
+        <p id="message"></p>
+      </div>
+    </form>
+
+  </div>
+
+</body>
+
+</html>

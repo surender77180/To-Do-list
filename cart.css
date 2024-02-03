@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(120deg, rgb(186 98 238) , rgb(72, 181, 72), rgb(92, 92, 225))
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 0.8em 0.4em;
+}
+
+.product img{
+    height: 250px;
+    width: 300px;
+}

@@ -1,0 +1,61 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(120deg, rgb(186 98 238) , rgb(72, 181, 72), rgb(92, 92, 225))
+}
+
+h1{
+    font-size: xx-large;
+}
+
+.center {
+    background: linear-gradient(-24deg ,#45b2cb, #00ffb1);
+    border-radius: 12px;
+}
+
+.center h1 {
+    text-align: center;
+    text-shadow: 3px -3px 20px black;
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .text {
+    position: relative;
+    margin: 30px 0;
+}
+
+form input{
+    border: none;
+    border-radius: 5px;
+}
+.sign {
+    margin: 2%;
+}
+
+.log-in{
+    border: 2px solid;
+    border-radius: 13px;
+    background: rgb(11, 74, 248);
+    font-family: revert;
+    font-size: larger;
+    color: white;
+}
+
+.log-in:hover{
+    border: none;
+    background-color: #00ffb1;
+    font-size: 1.2em;
+}
+
+.sign a{
+    text-decoration: none;
+    font-size: large;
+}

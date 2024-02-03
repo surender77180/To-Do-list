@@ -1,0 +1,34 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(120deg, rgb(186 98 238) , rgb(72, 181, 72), rgb(92, 92, 225))
+}
+
+.container{
+    /* border: 2px solid black; */
+    width: 60vw;
+    margin: 2em 0;
+}
+
+form input{
+    border: none;
+    margin: 8px;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+}
+
+.add-product{
+    border: 2px solid;
+    border-radius: 13px;
+    background: rgb(11, 74, 248);
+    font-family: revert;
+    font-size: larger;
+    color: white;
+}
+
+.add-product:hover{
+    border: none;
+    background-color: #00ffb1;
+    font-size: 1.2em;
+}
